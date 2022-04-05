@@ -1,4 +1,4 @@
-var dict = HashTable<String, String>(capacity: 5)
+var dict = HashMap<String, String>(capacity: 5)
 
 // Assign key val pairs
  dict["firstName"] = "Nishant"

@@ -1,5 +1,5 @@
 
-public struct HashTable<Key: Hashable, Value> {
+public struct HashMap<Key: Hashable, Value> {
     typealias ElementPair = (key: Key, value: Value)
     
     var array: [[ElementPair]]
